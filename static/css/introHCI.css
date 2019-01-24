@@ -20,6 +20,9 @@ body {
 	position: relative;
 	background: none;
 }
+.jumbotron p.active {
+     color: #1f6ddd;
+}
 
 .jumbotron:after {
      content:"";
@@ -32,6 +35,8 @@ body {
      position: absolute;
      z-index: -1;	
 }
+
+
 
 .jumbotron p {
      color: #6e6e6e;
